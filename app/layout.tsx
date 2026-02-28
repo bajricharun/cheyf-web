@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} min-h-screen flex flex-col font-sans antialiased bg-background text-foreground`}>
         <Header />
+        <SpeedInsights />
         <main className="flex-1 flex flex-col pt-16">
           {children}
         </main>
