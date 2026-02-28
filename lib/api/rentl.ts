@@ -104,7 +104,7 @@ class RentlApiService {
       return {
         ...prop,
         id: prop.id.toString(),
-        name: prop.name || localData?.name || 'Cheyf Property',
+        name: localData?.name || prop.name || 'Cheyf Property',
         images: localData?.images || ['/placeholder-property.jpg'],
         description: localData?.description || prop.description || 'Premium apartment in Sarajevo.',
         amenities: localData?.amenities || prop.amenities || [],
@@ -180,6 +180,66 @@ class RentlApiService {
    */
   async getUnitTypes(propertyId: string | number): Promise<RentlApiResponse<any[]>> {
     return this.fetchApi<any[]>(`/properties/${propertyId}/unit-types`);
+  }
+
+  /**
+   * Check availability for multiple properties
+   */
+  async checkBulkAvailability(propertyIds: string[], dateFrom: string, dateTo: string): Promise<RentlApiResponse<any>> {
+    if (!RENTL_API_KEY) {
+      // Mocked availability: pretend all are available with base prices
+      await new Promise(resolve => setTimeout(resolve, 800));
+      return {
+        status: 200,
+        data: propertyIds.map(id => ({
+          propertyId: id,
+          available: true,
+          pricePerNight: 100, // mock fallback
+        }))
+      };
+    }
+
+    const idsQuery = propertyIds.join(',');
+    const res = await this.fetchApi<any[]>(`/availability?propertiesIds=${idsQuery}&dateFrom=${dateFrom}&dateTo=${dateTo}`);
+    
+    // Process Rentl's raw availability data into a map or array of what's available
+    if (res.status === 200 && Array.isArray(res.data)) {
+      const processed = res.data.map((prop: any) => {
+        let isAvailable = false;
+        let totalPrice = 0;
+        
+        if (prop.unitTypes && prop.unitTypes.length > 0) {
+          // Check the first standard unit type
+          const unit = prop.unitTypes[0];
+          
+          // Check for blocked dates
+          const blocked = (unit.availability || []).find((day: any) => day.value === 0);
+          isAvailable = !blocked;
+          
+          // Calculate price
+          const rates = unit.rates?.[0]?.DailyValues || [];
+          rates.forEach((day: any) => {
+            if (day.price) totalPrice += day.price;
+          });
+          
+          // If rates are empty but available is true, we fallback
+          if (totalPrice === 0 && isAvailable) {
+             totalPrice = 100 * (rates.length || 1); // Mock fallback if Rentl gives 0 price for unconfigured
+          }
+        }
+        
+        return {
+          propertyId: prop.id.toString(),
+          available: isAvailable,
+          totalPrice,
+          pricePerNight: totalPrice / (prop.unitTypes?.[0]?.rates?.[0]?.DailyValues?.length || 1)
+        };
+      });
+      
+      return { status: 200, data: processed };
+    }
+    
+    return res;
   }
 
   /**

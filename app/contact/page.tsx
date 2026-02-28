@@ -12,7 +12,7 @@ export default function ContactPage() {
       <div className="relative min-h-[60vh] flex flex-col items-center justify-center text-center px-4 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/properties/andar1.jpg"
+            src="/images/properties/andar1.webp"
             alt="Contact Cheyf Stays"
             fill
             className="object-cover"

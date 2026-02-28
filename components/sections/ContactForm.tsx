@@ -33,16 +33,16 @@ export function ContactForm() {
             </p>
             <div className="space-y-4 pt-4">
               <div>
-                <h4 className="font-semibold">Email Us</h4>
-                <p className="text-muted-foreground">info@cheyfstays.com</p>
+                <h3 className="font-semibold">Email Us</h3>
+                <p className="text-muted-foreground">info@cheyfstays.ba</p>
               </div>
               <div>
-                <h4 className="font-semibold">Call Us</h4>
-                <p className="text-muted-foreground">+387 61 123 456</p>
+                <h3 className="font-semibold">Call Us</h3>
+                <p className="text-muted-foreground">+387 67 100 6007</p>
               </div>
               <div>
-                <h4 className="font-semibold">Office</h4>
-                <p className="text-muted-foreground">Sarajevo City Center Area, BiH</p>
+                <h3 className="font-semibold">Office</h3>
+                <p className="text-muted-foreground">Fojnička 33, Sarajevo</p>
               </div>
             </div>
           </div>
@@ -62,7 +62,8 @@ export function ContactForm() {
                   </Button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form action="https://api.web3forms.com/submit" method='POST' className="space-y-4">
+                  <input type="hidden" name="access_key" value="99043229-e736-4df9-962f-c3a9d0b8e32e" />
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <label htmlFor="firstName" className="text-sm font-medium">First Name <span className="text-destructive">*</span></label>

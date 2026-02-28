@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Facebook, Instagram } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -10,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="relative w-32 h-10">
               <Image
-                src="/images/cheyf-logo-black.png"
+                src="/images/cheyf-logo-black.webp"
                 alt="Cheyf Stays Logo"
                 fill
                 className="object-contain dark:invert grayscale opacity-80"
@@ -37,9 +38,9 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4 text-sm tracking-widest uppercase text-muted-foreground">Connect</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-accent transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Facebook</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">LinkedIn</a></li>
+              <li><a href="https://instagram.com/cheyf.stays" aria-label='Instagram' className="hover:text-accent transition-colors"><Instagram/></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61559738473242#" aria-label='Facebook' className="hover:text-accent transition-colors"><Facebook /></a></li>
+
             </ul>
           </div>
         </div>

@@ -30,6 +30,7 @@ export function ImageGallery({ images, propertyName }: ImageGalleryProps) {
           src={images[0]}
           alt={`${propertyName} image 1`}
           fill
+          priority
           className="object-cover hover:scale-105 transition-transform duration-500"
         />
       </div>
@@ -48,6 +49,7 @@ export function ImageGallery({ images, propertyName }: ImageGalleryProps) {
             src={displayImages[0]}
             alt={`${propertyName} cover`}
             fill
+            priority
             className="object-cover hover:scale-105 transition-transform duration-500"
           />
         </div>
@@ -64,6 +66,7 @@ export function ImageGallery({ images, propertyName }: ImageGalleryProps) {
                 src={src}
                 alt={`${propertyName} image ${idx + 2}`}
                 fill
+                priority
                 className="object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -77,6 +80,7 @@ export function ImageGallery({ images, propertyName }: ImageGalleryProps) {
               src={displayImages[1]}
               alt={`${propertyName} image 2`}
               fill
+              priority
               className="object-cover hover:scale-105 transition-transform duration-500"
             />
           )}
@@ -85,7 +89,7 @@ export function ImageGallery({ images, propertyName }: ImageGalleryProps) {
         {/* Show all photos button */}
         <Button 
           variant="secondary" 
-          className="absolute bottom-4 right-4 z-10 gap-2 font-semibold shadow-md hidden md:flex"
+          className="absolute bottom-4 right-4 z-10 gap-2 font-semibold shadow-md  md:flex"
           onClick={() => setShowModal(true)}
         >
           <Grid className="w-4 h-4" />
@@ -121,6 +125,7 @@ export function ImageGallery({ images, propertyName }: ImageGalleryProps) {
                     src={src}
                     alt={`${propertyName} ${idx + 1}`}
                     fill
+                    priority
                     className="object-cover hover:scale-[1.02] transition-transform duration-500"
                   />
                 </div>

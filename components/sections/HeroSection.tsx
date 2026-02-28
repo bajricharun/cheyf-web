@@ -9,7 +9,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/3.avif" 
+          src="/images/3.webp" 
           alt="Premium Sarajevo Stays"
           fill
           priority
@@ -37,9 +37,9 @@ export function HeroSection() {
               Book Your Stay
             </Link>
           </Button>
-          <Button asChild size="lg" variant="outline" className="text-md h-12 px-8 bg-background/20 backdrop-blur-md border-white/20 text-white hover:bg-white/10 hover:text-white">
-            <Link href="#properties">
-              View Properties
+          <Button asChild size="lg" variant="outline" className="text-md h-12 px-8 bg-background/10 backdrop-blur-md border-white/20 text-black hover:bg-white/50 hover:text-black">
+            <Link href="/become-a-partner">
+              Become a partner
             </Link>
           </Button>
         </div>

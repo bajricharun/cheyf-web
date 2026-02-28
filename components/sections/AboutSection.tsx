@@ -50,18 +50,18 @@ export function AboutSection() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image src="/images/properties/oldtown1.jpg" alt="Sarajevo Old Town" fill className="object-cover" />
+                  <Image src="/images/properties/oldtown1.webp" alt="Sarajevo Old Town" fill className="object-cover" />
                 </div>
                 <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                  <Image src="/images/properties/dzamijska.jpg" alt="Modern Apartment" fill className="object-cover" />
+                  <Image src="/images/properties/dzamijska.webp" alt="Modern Apartment" fill className="object-cover" />
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                  <Image src="/images/properties/verde.jpg" alt="Balcony View" fill className="object-cover" />
+                  <Image src="/images/properties/verde.webp" alt="Balcony View" fill className="object-cover" />
                 </div>
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image src="/images/properties/nana3.jpg" alt="Interior Details" fill className="object-cover" />
+                  <Image src="/images/properties/nana3.webp" alt="Interior Details" fill className="object-cover" />
                 </div>
               </div>
             </div>

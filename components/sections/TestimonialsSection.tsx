@@ -31,7 +31,7 @@ export function TestimonialsSection() {
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
             Guest Experiences
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-foreground text-lg">
             Don't just take our word for it—read what our guests and property owners have to say about Cheyf Stays.
           </p>
         </div>

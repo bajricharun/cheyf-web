@@ -34,11 +34,11 @@ export const propertyData: Record<number, PropertyData> = {
   // 31221: Čobanija
   31221: {
     images: [
-      "/images/properties/cobanija.jpg",
-      "/images/properties/cobanija2_2.jpg",
-      "/images/properties/cobanija3.jpg",
-      "/images/properties/cobanija4.jpg",
-      "/images/properties/cobanija5.jpg",
+      "/images/properties/cobanija.webp",
+      "/images/properties/cobanija2_2.webp",
+      "/images/properties/cobanija3.webp",
+      "/images/properties/cobanija4.webp",
+      "/images/properties/cobanija5.webp",
     ],
     name: "Cheyf Modern Studio",
     description: `
@@ -61,11 +61,11 @@ export const propertyData: Record<number, PropertyData> = {
 
   31222: {
     images: [
-      "/images/properties/kljucka.jpg",
-      "/images/properties/kljucka2.jpg",
-      "/images/properties/kljucka3.jpg",
-      "/images/properties/kljucka4.jpg",
-      "/images/properties/kljucka5.jpg",
+      "/images/properties/kljucka.webp",
+      "/images/properties/kljucka2.webp",
+      "/images/properties/kljucka3.webp",
+      "/images/properties/kljucka4.webp",
+      "/images/properties/kljucka5.webp",
     ],
     name: "Cheyf in City Center",
     description: `Comfortable Living Space: Cheyf in City Center offers a one-bedroom apartment in Sarajevo. The ground-floor unit features a kitchenette, bathrobes, washing machine, and a private entrance.\n 
@@ -85,12 +85,12 @@ export const propertyData: Record<number, PropertyData> = {
   // 31754: Giulia
   31754: {
     images: [
-      "/images/properties/giulia1.jpg",
-      "/images/properties/giulia2.jpg",
-      "/images/properties/giulia3.jpg",
-      "/images/properties/giulia4.jpg",
-      "/images/properties/giulia5.jpg",
-      "/images/properties/giulia6.jpg",
+      "/images/properties/giulia1.webp",
+      "/images/properties/giulia2.webp",
+      "/images/properties/giulia3.webp",
+      "/images/properties/giulia4.webp",
+      "/images/properties/giulia5.webp",
+      "/images/properties/giulia6.webp",
     ],
     name: "City Center Apartment Near the Cathedral - Giulia",
     description: `Comfortable Accommodations: City Center Apartment Near the Cathedral - Giulia in Sarajevo offers a two-bedroom apartment with a living room. The property features air-conditioning, a fully equipped kitchen, and a washing machine. \n
@@ -112,14 +112,14 @@ export const propertyData: Record<number, PropertyData> = {
   // 32169: Andar's People
   32169: {
     images: [
-      "/images/properties/andar6.jpg",
-      "/images/properties/andar1.jpg",
-      "/images/properties/andar2.jpg",
-      "/images/properties/andar3.jpg",
-      "/images/properties/andar4.jpg",
-      "/images/properties/andar5.jpg",
-      "/images/properties/andar7.jpg",
-      "/images/properties/andar8.jpg",
+      "/images/properties/andar6.webp",
+      "/images/properties/andar1.webp",
+      "/images/properties/andar2.webp",
+      "/images/properties/andar3.webp",
+      "/images/properties/andar4.webp",
+      "/images/properties/andar5.webp",
+      "/images/properties/andar7.webp",
+      "/images/properties/andar8.webp",
     ],
     name: "Andar's people",
     description: `Modern Comforts: Andar's people in Sarajevo offers a recently renovated aparthotel with free WiFi and a terrace. Each unit features air-conditioning, a kitchenette, and a private bathroom with a walk-in shower.\n
@@ -141,16 +141,16 @@ export const propertyData: Record<number, PropertyData> = {
   // 32234: LocalHost Apartment Sarajevo
   32234: {
     images: [
-      "/images/properties/senoina.jpg",
-      "/images/properties/senoina1.jpg",
-      "/images/properties/senoina2.jpg",
-      "/images/properties/senoina3.jpg",
-      "/images/properties/senoina4.jpg",
-      "/images/properties/senoina5.jpg",
-      "/images/properties/senoina6.jpg",
-      "/images/properties/senoina7.jpg",
-      "/images/properties/senoina8.jpg",
-      "/images/properties/senoina9.jpg",
+      "/images/properties/senoina.webp",
+      "/images/properties/senoina1.webp",
+      "/images/properties/senoina2.webp",
+      "/images/properties/senoina3.webp",
+      "/images/properties/senoina4.webp",
+      "/images/properties/senoina5.webp",
+      "/images/properties/senoina6.webp",
+      "/images/properties/senoina7.webp",
+      "/images/properties/senoina8.webp",
+      "/images/properties/senoina9.webp",
     ],
     name: "LocalHost Apartment Sarajevo",
     description: `Spacious Accommodations: LocalHost Apartment Sarajevo offers a spacious apartment in Sarajevo city center. The property features two bedrooms, a living room, and a fully equipped kitchen. \n
@@ -171,14 +171,14 @@ export const propertyData: Record<number, PropertyData> = {
   // 32352: Vila Jela
   32352: {
     images: [
-      "/images/properties/jela.jpg",
-      "/images/properties/jela1.jpg",
-      "/images/properties/jela2.jpg",
-      "/images/properties/jela3.jpg",
-      "/images/properties/jela4.jpg",
-      "/images/properties/jela5.jpg",
-      "/images/properties/jela6.jpg",
-      "/images/properties/jela7.jpg",
+      "/images/properties/jela.webp",
+      "/images/properties/jela1.webp",
+      "/images/properties/jela2.webp",
+      "/images/properties/jela3.webp",
+      "/images/properties/jela4.webp",
+      "/images/properties/jela5.webp",
+      "/images/properties/jela6.webp",
+      "/images/properties/jela7.webp",
     ],
     name: "Apartment With Private Parking",
     description: `Comfortable Living: Apartment With Private Parking in Sarajevo offers a garden, terrace, and free WiFi. Family rooms provide a relaxing environment. \n
@@ -199,13 +199,13 @@ export const propertyData: Record<number, PropertyData> = {
   // 32379: Verde 22 with Garage
   32379: {
     images: [
-      "/images/properties/verde.jpg",
-      "/images/properties/verde1.jpg",
-      "/images/properties/verde2.jpg",
-      "/images/properties/verde3.jpg",
-      "/images/properties/verde4.jpg",
-      "/images/properties/verde5.jpg",
-      "/images/properties/verde6.jpg",
+      "/images/properties/verde.webp",
+      "/images/properties/verde1.webp",
+      "/images/properties/verde2.webp",
+      "/images/properties/verde3.webp",
+      "/images/properties/verde4.webp",
+      "/images/properties/verde5.webp",
+      "/images/properties/verde6.webp",
     ],
     name: "Verde 22 with Garage",
     description: `Comfortable Living: Verde 22 with Garage in Sarajevo offers a one-bedroom apartment with a terrace and free WiFi. The property includes a balcony, air-conditioning, washing machine, kitchen, and TV.\n
@@ -228,14 +228,14 @@ export const propertyData: Record<number, PropertyData> = {
   // 32554: Nana's atelier in the old town
   32554: {
     images: [
-      "/images/properties/nana.jpg",
-      "/images/properties/nana1.jpg",
-      "/images/properties/nana2.jpg",
-      "/images/properties/nana3.jpg",
-      "/images/properties/nana4.jpg",
-      "/images/properties/nana5.jpg",
-      "/images/properties/nana6.jpg",
-      "/images/properties/nana7.jpg",
+      "/images/properties/nana.webp",
+      "/images/properties/nana1.webp",
+      "/images/properties/nana2.webp",
+      "/images/properties/nana3.webp",
+      "/images/properties/nana4.webp",
+      "/images/properties/nana5.webp",
+      "/images/properties/nana6.webp",
+      "/images/properties/nana7.webp",
     ],
     name: "Nana's atelier in the old town",
     description: `Comfortable Living Space: Nana's atelier in the old town offers a one-bedroom apartment in Sarajevo. The ground-floor unit features a terrace and a garden, providing a relaxing outdoor area. Free WiFi is available throughout the property. \n
@@ -256,16 +256,16 @@ export const propertyData: Record<number, PropertyData> = {
   // 33111: Sarajevo Serenity Apartment
   33111: {
     images: [
-      "/images/properties/dzamijska.jpg",
-      "/images/properties/dzamijska1.jpg",
-      "/images/properties/dzamijska2.jpg",
-      "/images/properties/dzamijska3.jpg",
-      "/images/properties/dzamijska4.jpg",
-      "/images/properties/dzamijska5.jpg",
-      "/images/properties/dzamijska6.jpg",
-      "/images/properties/dzamijska7.jpg",
-      "/images/properties/dzamijska8.jpg",
-      "/images/properties/dzamijska9.jpg",
+      "/images/properties/dzamijska.webp",
+      "/images/properties/dzamijska1.webp",
+      "/images/properties/dzamijska2.webp",
+      "/images/properties/dzamijska3.webp",
+      "/images/properties/dzamijska4.webp",
+      "/images/properties/dzamijska5.webp",
+      "/images/properties/dzamijska6.webp",
+      "/images/properties/dzamijska7.webp",
+      "/images/properties/dzamijska8.webp",
+      "/images/properties/dzamijska9.webp",
     ],
     name: "Sarajevo Serenity Apartment",
     description: `Comfortable Living: Sarajevo Serenity Apartment in Sarajevo offers a one-bedroom apartment with a living room. The property features a balcony with city views, air-conditioning, and a fully equipped kitchen. 
@@ -288,15 +288,15 @@ export const propertyData: Record<number, PropertyData> = {
   // 33117: Dalmatinska Cheyf Retreat
   33117: {
     images: [
-      "/images/properties/oldtown.jpg",
-      "/images/properties/oldtown1.jpg",
-      "/images/properties/oldtown2.jpg",
-      "/images/properties/oldtown3.jpg",
-      "/images/properties/oldtown4.jpg",
-      "/images/properties/oldtown5.jpg",
-      "/images/properties/oldtown6.jpg",
-      "/images/properties/oldtown7.jpg",
-      "/images/properties/oldtown8.jpg",
+      "/images/properties/oldtown.webp",
+      "/images/properties/oldtown1.webp",
+      "/images/properties/oldtown2.webp",
+      "/images/properties/oldtown3.webp",
+      "/images/properties/oldtown4.webp",
+      "/images/properties/oldtown5.webp",
+      "/images/properties/oldtown6.webp",
+      "/images/properties/oldtown7.webp",
+      "/images/properties/oldtown8.webp",
     ],
     name: "Dalmatinska Cheyf Retreat",
     description: `Comfortable Living Space: The apartment offers one bedroom and one bathroom with a kitchenette, air-conditioning, and a dining area. Guests enjoy free WiFi, a work desk, and a sofa bed.\n
@@ -315,13 +315,13 @@ export const propertyData: Record<number, PropertyData> = {
   // 33197: Cozy Studio in the City Center
   33197: {
     images: [
-      "/images/properties/cozy.jpg",
-      "/images/properties/cozy1.jpg",
-      "/images/properties/cozy2.jpg",
-      "/images/properties/cozy3.jpg",
-      "/images/properties/cozy4.jpg",
-      "/images/properties/cozy5.jpg",
-      "/images/properties/cozy6.jpg",
+      "/images/properties/cozy.webp",
+      "/images/properties/cozy1.webp",
+      "/images/properties/cozy2.webp",
+      "/images/properties/cozy3.webp",
+      "/images/properties/cozy4.webp",
+      "/images/properties/cozy5.webp",
+      "/images/properties/cozy6.webp",
     ],
     name: "Cozy Studio in the City Center",
     description: `Comfortable Living Space: Cozy Studio in the City Center offers a one-bedroom apartment in Sarajevo. The property features a living room, a fully equipped kitchen, and a washing machine. Free WiFi is available throughout the apartment. 
@@ -341,15 +341,15 @@ export const propertyData: Record<number, PropertyData> = {
   // 33239: 1Bdr apartment in the heart of Sarajevo Old Town
   33239: {
     images: [
-      "/images/properties/oldtown.jpg",
-      "/images/properties/oldtown1.jpg",
-      "/images/properties/oldtown2.jpg",
-      "/images/properties/oldtown3.jpg",
-      "/images/properties/oldtown4.jpg",
-      "/images/properties/oldtown5.jpg",
-      "/images/properties/oldtown6.jpg",
-      "/images/properties/oldtown7.jpg",
-      "/images/properties/oldtown8.jpg",
+      "/images/properties/oldtown.webp",
+      "/images/properties/oldtown1.webp",
+      "/images/properties/oldtown2.webp",
+      "/images/properties/oldtown3.webp",
+      "/images/properties/oldtown4.webp",
+      "/images/properties/oldtown5.webp",
+      "/images/properties/oldtown6.webp",
+      "/images/properties/oldtown7.webp",
+      "/images/properties/oldtown8.webp",
     ],
     name: "1Bdr apartment in the heart of Sarajevo Old Town",
     description: `Comfortable Living Space: The apartment offers one bedroom and one bathroom with a kitchenette, air-conditioning, and a dining area. Guests enjoy free WiFi, a work desk, and a sofa bed.\n
@@ -369,12 +369,12 @@ export const propertyData: Record<number, PropertyData> = {
   // 33276: Safveta Bega
   33276: {
     images: [
-      "/images/properties/safveta.avif",
-      "/images/properties/safveta1.avif",
-      "/images/properties/safveta2.avif",
-      "/images/properties/safveta3.avif",
-      "/images/properties/safveta4.avif",
-      "/images/properties/safveta5.avif",
+      "/images/properties/safveta.webp",
+      "/images/properties/safveta1.webp",
+      "/images/properties/safveta2.webp",
+      "/images/properties/safveta3.webp",
+      "/images/properties/safveta4.webp",
+      "/images/properties/safveta5.webp",
       "/images/properties/safveta6.webp",
     ],
     name: "Tarhana Apartment",
@@ -398,14 +398,14 @@ export const propertyData: Record<number, PropertyData> = {
   // 33450: Cheyf in Grbavička
   33450: {
     images: [
-      "/images/properties/grbavicka.jpg",
-      "/images/properties/grbavicka1.jpg",
-      "/images/properties/grbavicka2.jpg",
-      "/images/properties/grbavicka3.jpg",
-      "/images/properties/grbavicka4.jpg",
-      "/images/properties/grbavicka5.jpg",
-      "/images/properties/grbavicka6.jpg",
-      "/images/properties/grbavicka7.jpg",
+      "/images/properties/grbavicka.webp",
+      "/images/properties/grbavicka1.webp",
+      "/images/properties/grbavicka2.webp",
+      "/images/properties/grbavicka3.webp",
+      "/images/properties/grbavicka4.webp",
+      "/images/properties/grbavicka5.webp",
+      "/images/properties/grbavicka6.webp",
+      "/images/properties/grbavicka7.webp",
     ],
     name: "Cheyf in Grbavička",
     description: `Comfortable Living Space: Cheyf in Grbavička offers a one-bedroom apartment in Sarajevo. The property features a private entrance, city views, and a quiet street setting.\n
@@ -425,15 +425,40 @@ export const propertyData: Record<number, PropertyData> = {
   // 33617: Cheyf in Willson's Alley
   33617: {
     images: [
-      "/images/properties/willson.jpg",
-      "/images/properties/willson1.jpg",
-      "/images/properties/willson2.jpg",
-      "/images/properties/willson3.jpg",
-      "/images/properties/willson4.jpg",
-      "/images/properties/willson5.jpg",
-      "/images/properties/willson6.jpg",
+      "/images/properties/willson.webp",
+      "/images/properties/willson1.webp",
+      "/images/properties/willson2.webp",
+      "/images/properties/willson3.webp",
+      "/images/properties/willson4.webp",
+      "/images/properties/willson5.webp",
+      "/images/properties/willson6.webp",
     ],
     name: "Cheyf in Willson's Alley",
+
+    description: `Comfortable Living Space: Cheyf in Willson's alley offers a one-bedroom apartment in Sarajevo. The property features a terrace, balcony, and city views. Free WiFi and air-conditioning ensure a pleasant stay.\n
+      Modern Amenities: The apartment includes a fully equipped kitchen with a refrigerator, microwave, dishwasher, and oven. Additional amenities include a washing machine, dining area, sofa bed, and work desk. Free off-site parking is available.\n
+      Prime Location: Located 3.7 mi from Sarajevo International Airport, the apartment is close to attractions such as Latin Bridge (2.7 mi), Sebilj Fountain (3.1 mi), and Bascarsija Street (3.1 mi). The Sarajevo War Tunnel is 5 mi away.`,
+    amenities: [
+      { name: "Double Bed", icon: BedDouble },
+      { name: "WiFi", icon: Wifi },
+      { name: "Kitchen Access", icon: CookingPot },
+      { name: "Heating", icon: Heater },
+      { name: "Private Bathroom", icon: Toilet },
+    ],
+    highlights: ["Unique Location", "Local Character"],
+  },
+
+    33674: {
+    images: [
+      "/images/properties/willson.webp",
+      "/images/properties/willson1.webp",
+      "/images/properties/willson2.webp",
+      "/images/properties/willson3.webp",
+      "/images/properties/willson4.webp",
+      "/images/properties/willson5.webp",
+      "/images/properties/willson6.webp",
+    ],
+    name: "Riverside Cheyf apartment",
 
     description: `Comfortable Living Space: Cheyf in Willson's alley offers a one-bedroom apartment in Sarajevo. The property features a terrace, balcony, and city views. Free WiFi and air-conditioning ensure a pleasant stay.\n
       Modern Amenities: The apartment includes a fully equipped kitchen with a refrigerator, microwave, dishwasher, and oven. Additional amenities include a washing machine, dining area, sofa bed, and work desk. Free off-site parking is available.\n
@@ -465,11 +490,11 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/cheyf-modern-studio-in-center.html
   63614: {
     images: [
-      "/images/properties/cobanija.jpg",
-      "/images/properties/cobanija2_2.jpg",
-      "/images/properties/cobanija3.jpg",
-      "/images/properties/cobanija4.jpg",
-      "/images/properties/cobanija5.jpg",
+      "/images/properties/cobanija.webp",
+      "/images/properties/cobanija2_2.webp",
+      "/images/properties/cobanija3.webp",
+      "/images/properties/cobanija4.webp",
+      "/images/properties/cobanija5.webp",
     ],
     description: `
       Central Location: Cheyf Modern Studio in Sarajevo offers a central location with Latin Bridge less than 0.6 mi away and Sebilj Fountain a 15-minute walk. Bascarsija Street is 0.6 mi nearby, while Sarajevo National Theater is a 4-minute walk. \n
@@ -493,11 +518,11 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/cheyf-in-city-center.html
   63615: {
     images: [
-      "/images/properties/kljucka.jpg",
-      "/images/properties/kljucka2.jpg",
-      "/images/properties/kljucka3.jpg",
-      "/images/properties/kljucka4.jpg",
-      "/images/properties/kljucka5.jpg",
+      "/images/properties/kljucka.webp",
+      "/images/properties/kljucka2.webp",
+      "/images/properties/kljucka3.webp",
+      "/images/properties/kljucka4.webp",
+      "/images/properties/kljucka5.webp",
     ],
     description: `Comfortable Living Space: Cheyf in City Center offers a one-bedroom apartment in Sarajevo. The ground-floor unit features a kitchenette, bathrobes, washing machine, and a private entrance.\n 
     Modern Amenities: Guests enjoy free WiFi, a fully equipped kitchen, bath, hairdryer, dining table, sofa bed, and a seating area. Additional amenities include a refrigerator, microwave, dishwasher, TV, and free toiletries.\n 
@@ -517,12 +542,12 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/spacious-cozy-cheyf.html
   63616: {
     images: [
-      "/images/properties/vojnicko1.jpg",
-      "/images/properties/vojnicko2.jpg",
-      "/images/properties/vojnicko3.jpg",
-      "/images/properties/vojnicko4.jpg",
-      "/images/properties/vojnicko5.jpg",
-      "/images/properties/vojnicko6.jpg",
+      "/images/properties/vojnicko1.webp",
+      "/images/properties/vojnicko2.webp",
+      "/images/properties/vojnicko3.webp",
+      "/images/properties/vojnicko4.webp",
+      "/images/properties/vojnicko5.webp",
+      "/images/properties/vojnicko6.webp",
     ],
     description: `Comfortable Living Space: Spacious Cozy Cheyf in Sarajevo offers a spacious apartment with one bedroom and one bathroom. Guests enjoy a terrace and free WiFi, ensuring a pleasant stay. \n
       Modern Amenities: The apartment features a kitchenette, balcony with mountain views, bathrobes, washing machine, and a dining area. Additional amenities include a sofa bed, TV, and free toiletries. \n
@@ -544,12 +569,12 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/city-center-apartment-near-the-cathedral-giulia.html
   64966: {
     images: [
-      "/images/properties/giulia1.jpg",
-      "/images/properties/giulia2.jpg",
-      "/images/properties/giulia3.jpg",
-      "/images/properties/giulia4.jpg",
-      "/images/properties/giulia5.jpg",
-      "/images/properties/giulia6.jpg",
+      "/images/properties/giulia1.webp",
+      "/images/properties/giulia2.webp",
+      "/images/properties/giulia3.webp",
+      "/images/properties/giulia4.webp",
+      "/images/properties/giulia5.webp",
+      "/images/properties/giulia6.webp",
     ],
     description: `Comfortable Accommodations: City Center Apartment Near the Cathedral - Giulia in Sarajevo offers a two-bedroom apartment with a living room. The property features air-conditioning, a fully equipped kitchen, and a washing machine. \n
       Modern Amenities: Guests enjoy free WiFi, streaming services, and a dining area. Additional amenities include a tea and coffee maker, microwave, and dishwasher. \n
@@ -568,7 +593,7 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // Property 32169: Andar's People
   // https://www.booking.com/hotel/ba/andar-s-people.html#RD1375002601
   65927: {
-    images: ["/images/rooms/gilda-1.jpg", "/images/rooms/gilda-2.jpg"],
+    images: ["/images/rooms/gilda-1.webp", "/images/rooms/gilda-2.webp"],
     description:
       "The double room's kitchenette, which has a refrigerator and an electric kettle, is available for cooking and storing food. This air-conditioned double room is consisted of of a flat-screen TV with satellite channels, a private bathroom as well as a terrace with garden views. The unit has 1 bed.",
     amenities: [
@@ -586,7 +611,7 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // Property 32169: Andar's People
   // https://www.booking.com/hotel/ba/andar-s-people.html#RD1375002602
   65928: {
-    images: ["/images/rooms/margot-1.jpg"],
+    images: ["/images/rooms/margot-1.webp"],
     description:
       "Offering free toiletries, this double room includes a private bathroom with a walk-in shower, a bidet and a hairdryer. The double room's kitchenette, which has a refrigerator, is available for cooking and storing food. The air-conditioned double room offers a flat-screen TV with satellite channels, a private entrance, a wardrobe, an electric kettle as well as garden views. The unit has 1 bed.",
     amenities: [
@@ -604,7 +629,7 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // Property 32169: Andar's People
   // https://www.booking.com/hotel/ba/andar-s-people.html#RD1375002604
   65929: {
-    images: ["/images/rooms/trampy-1.jpg"],
+    images: ["/images/rooms/trampy-1.webp"],
     description:
       "Featuring free toiletries, this double room includes a private bathroom with a walk-in shower, a bidet and a hairdryer. The double room's kitchenette, which has a refrigerator, is available for cooking and storing food. The air-conditioned double room features a flat-screen TV with satellite channels, a private entrance, a wardrobe, an electric kettle as well as city views. The unit has 1 bed.",
     amenities: [
@@ -622,7 +647,7 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // Property 32169: Andar's People
   // https://www.booking.com/hotel/ba/andar-s-people.html#RD1375002603
   65930: {
-    images: ["/images/rooms/wellington-1.jpg"],
+    images: ["/images/rooms/wellington-1.webp"],
     description:
       "Offering free toiletries, this double room includes a private bathroom with a walk-in shower, a bidet and a hairdryer. The double room's kitchenette, which features a refrigerator, is available for cooking and storing food. The air-conditioned double room offers a flat-screen TV with satellite channels, a private entrance, a wardrobe, an electric kettle as well as city views. The unit offers 1 bed.",
     amenities: [
@@ -641,16 +666,16 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/localhost-apartment-sarajevo.html
   66073: {
     images: [
-      "/images/properties/senoina.jpg",
-      "/images/properties/senoina1.jpg",
-      "/images/properties/senoina2.jpg",
-      "/images/properties/senoina3.jpg",
-      "/images/properties/senoina4.jpg",
-      "/images/properties/senoina5.jpg",
-      "/images/properties/senoina6.jpg",
-      "/images/properties/senoina7.jpg",
-      "/images/properties/senoina8.jpg",
-      "/images/properties/senoina9.jpg",
+      "/images/properties/senoina.webp",
+      "/images/properties/senoina1.webp",
+      "/images/properties/senoina2.webp",
+      "/images/properties/senoina3.webp",
+      "/images/properties/senoina4.webp",
+      "/images/properties/senoina5.webp",
+      "/images/properties/senoina6.webp",
+      "/images/properties/senoina7.webp",
+      "/images/properties/senoina8.webp",
+      "/images/properties/senoina9.webp",
     ],
     description: `Spacious Accommodations: LocalHost Apartment Sarajevo offers a spacious apartment in Sarajevo city center. The property features two bedrooms, a living room, and a fully equipped kitchen. \n
     Modern Amenities: Guests enjoy free WiFi, air-conditioning, a washing machine, and a dishwasher. Additional amenities include a mountain view, city view, and a private entrance. \n
@@ -671,14 +696,14 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/apartment-with-private-parking.html
   66310: {
     images: [
-      "/images/properties/jela.jpg",
-      "/images/properties/jela1.jpg",
-      "/images/properties/jela2.jpg",
-      "/images/properties/jela3.jpg",
-      "/images/properties/jela4.jpg",
-      "/images/properties/jela5.jpg",
-      "/images/properties/jela6.jpg",
-      "/images/properties/jela7.jpg",
+      "/images/properties/jela.webp",
+      "/images/properties/jela1.webp",
+      "/images/properties/jela2.webp",
+      "/images/properties/jela3.webp",
+      "/images/properties/jela4.webp",
+      "/images/properties/jela5.webp",
+      "/images/properties/jela6.webp",
+      "/images/properties/jela7.webp",
     ],
     description: `Comfortable Living: Apartment With Private Parking in Sarajevo offers a garden, terrace, and free WiFi. Family rooms provide a relaxing environment. \n
       Modern Amenities: The apartment includes a kitchenette, balcony, bathrobes, washing machine, and a work desk. Additional features include a dining area, sofa bed, and free toiletries. \n
@@ -700,13 +725,13 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/verde-22-with-garage.html
   66395: {
     images: [
-      "/images/properties/verde.jpg",
-      "/images/properties/verde1.jpg",
-      "/images/properties/verde2.jpg",
-      "/images/properties/verde3.jpg",
-      "/images/properties/verde4.jpg",
-      "/images/properties/verde5.jpg",
-      "/images/properties/verde6.jpg",
+      "/images/properties/verde.webp",
+      "/images/properties/verde1.webp",
+      "/images/properties/verde2.webp",
+      "/images/properties/verde3.webp",
+      "/images/properties/verde4.webp",
+      "/images/properties/verde5.webp",
+      "/images/properties/verde6.webp",
     ],
     description: `Comfortable Living: Verde 22 with Garage in Sarajevo offers a one-bedroom apartment with a terrace and free WiFi. The property includes a balcony, air-conditioning, washing machine, kitchen, and TV.\n
       Convenient Facilities: Guests benefit from private check-in and check-out services, a paid shuttle, elevator, hot tub, and family rooms. Free on-site private parking is available.\n
@@ -729,14 +754,14 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/nanas-atelier-in-the-old-town.html
   66810: {
     images: [
-      "/images/properties/nana.jpg",
-      "/images/properties/nana1.jpg",
-      "/images/properties/nana2.jpg",
-      "/images/properties/nana3.jpg",
-      "/images/properties/nana4.jpg",
-      "/images/properties/nana5.jpg",
-      "/images/properties/nana6.jpg",
-      "/images/properties/nana7.jpg",
+      "/images/properties/nana.webp",
+      "/images/properties/nana1.webp",
+      "/images/properties/nana2.webp",
+      "/images/properties/nana3.webp",
+      "/images/properties/nana4.webp",
+      "/images/properties/nana5.webp",
+      "/images/properties/nana6.webp",
+      "/images/properties/nana7.webp",
     ],
     description: `Comfortable Living Space: Nana's atelier in the old town offers a one-bedroom apartment in Sarajevo. The ground-floor unit features a terrace and a garden, providing a relaxing outdoor area. Free WiFi is available throughout the property. \n
       Modern Amenities: The apartment includes a fully equipped kitchen with a dishwasher, washing machine, and a work desk. Guests can enjoy streaming services, a dining area, and a sofa bed. Additional amenities include a private check-in and check-out service, paid airport shuttle, and free on-site parking. \n
@@ -757,16 +782,16 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/sarajevo-serenity-apartment.html
   68001: {
     images: [
-      "/images/properties/dzamijska.jpg",
-      "/images/properties/dzamijska1.jpg",
-      "/images/properties/dzamijska2.jpg",
-      "/images/properties/dzamijska3.jpg",
-      "/images/properties/dzamijska4.jpg",
-      "/images/properties/dzamijska5.jpg",
-      "/images/properties/dzamijska6.jpg",
-      "/images/properties/dzamijska7.jpg",
-      "/images/properties/dzamijska8.jpg",
-      "/images/properties/dzamijska9.jpg",
+      "/images/properties/dzamijska.webp",
+      "/images/properties/dzamijska1.webp",
+      "/images/properties/dzamijska2.webp",
+      "/images/properties/dzamijska3.webp",
+      "/images/properties/dzamijska4.webp",
+      "/images/properties/dzamijska5.webp",
+      "/images/properties/dzamijska6.webp",
+      "/images/properties/dzamijska7.webp",
+      "/images/properties/dzamijska8.webp",
+      "/images/properties/dzamijska9.webp",
     ],
     description: `Comfortable Living: Sarajevo Serenity Apartment in Sarajevo offers a one-bedroom apartment with a living room. The property features a balcony with city views, air-conditioning, and a fully equipped kitchen. 
     \nModern Amenities: Guests enjoy free WiFi, a washing machine, and a dishwasher. Additional facilities include a minimarket, outdoor seating area, and a hairdresser/beautician. Free parking is available on-site. 
@@ -789,13 +814,13 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/dalmatinska-cheyf-retreat.html
   68014: {
     images: [
-      "/images/properties/dalmatinska.jpg",
-      "/images/properties/dalmatinska1.jpg",
-      "/images/properties/dalmatinska2.jpg",
-      "/images/properties/dalmatinska3.jpg",
-      "/images/properties/dalmatinska4.jpg",
-      "/images/properties/dalmatinska5.jpg",
-      "/images/properties/dalmatinska6.jpg",
+      "/images/properties/dalmatinska.webp",
+      "/images/properties/dalmatinska1.webp",
+      "/images/properties/dalmatinska2.webp",
+      "/images/properties/dalmatinska3.webp",
+      "/images/properties/dalmatinska4.webp",
+      "/images/properties/dalmatinska5.webp",
+      "/images/properties/dalmatinska6.webp",
     ],
     description: `Comfortable Accommodations: Dalmatinska Cheyf Retreat in Sarajevo offers a two-bedroom apartment with a living room. The ground-floor unit features a kitchenette, bathrobes, and garden views. \n
     Modern Amenities: Guests enjoy free WiFi, a fully equipped kitchen, and a private entrance. Additional facilities include a minimarket, outdoor play area, laundry service, and a hairdresser. \n
@@ -816,13 +841,13 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/cozy-studio-in-the-city-center.html
   68192: {
     images: [
-      "/images/properties/cozy.jpg",
-      "/images/properties/cozy1.jpg",
-      "/images/properties/cozy2.jpg",
-      "/images/properties/cozy3.jpg",
-      "/images/properties/cozy4.jpg",
-      "/images/properties/cozy5.jpg",
-      "/images/properties/cozy6.jpg",
+      "/images/properties/cozy.webp",
+      "/images/properties/cozy1.webp",
+      "/images/properties/cozy2.webp",
+      "/images/properties/cozy3.webp",
+      "/images/properties/cozy4.webp",
+      "/images/properties/cozy5.webp",
+      "/images/properties/cozy6.webp",
     ],
     description: `Comfortable Living Space: Cozy Studio in the City Center offers a one-bedroom apartment in Sarajevo. The property features a living room, a fully equipped kitchen, and a washing machine. Free WiFi is available throughout the apartment. 
     \n Convenient Facilities: Guests can enjoy a washing machine, a TV, and a washing machine. The apartment includes a washing machine, a fully equipped kitchen, and a TV. 
@@ -843,15 +868,15 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // -of-sarajevo-old-town.html
   68310: {
     images: [
-      "/images/properties/oldtown.jpg",
-      "/images/properties/oldtown1.jpg",
-      "/images/properties/oldtown2.jpg",
-      "/images/properties/oldtown3.jpg",
-      "/images/properties/oldtown4.jpg",
-      "/images/properties/oldtown5.jpg",
-      "/images/properties/oldtown6.jpg",
-      "/images/properties/oldtown7.jpg",
-      "/images/properties/oldtown8.jpg",
+      "/images/properties/oldtown.webp",
+      "/images/properties/oldtown1.webp",
+      "/images/properties/oldtown2.webp",
+      "/images/properties/oldtown3.webp",
+      "/images/properties/oldtown4.webp",
+      "/images/properties/oldtown5.webp",
+      "/images/properties/oldtown6.webp",
+      "/images/properties/oldtown7.webp",
+      "/images/properties/oldtown8.webp",
     ],
     description: `Comfortable Living Space: The apartment offers one bedroom and one bathroom with a kitchenette, air-conditioning, and a dining area. Guests enjoy free WiFi, a work desk, and a sofa bed.\n
       Convenient Facilities: Private check-in and check-out, a 24-hour front desk, and free on-site parking are available. Additional services include a paid shuttle and family rooms.\n
@@ -871,12 +896,12 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // airbnb.com/h/charming-sarajevo-old-town
   68351: {
     images: [
-      "/images/properties/safveta.avif",
-      "/images/properties/safveta1.avif",
-      "/images/properties/safveta2.avif",
-      "/images/properties/safveta3.avif",
-      "/images/properties/safveta4.avif",
-      "/images/properties/safveta5.avif",
+      "/images/properties/safveta.webp",
+      "/images/properties/safveta1.webp",
+      "/images/properties/safveta2.webp",
+      "/images/properties/safveta3.webp",
+      "/images/properties/safveta4.webp",
+      "/images/properties/safveta5.webp",
       "/images/properties/safveta6.webp",
     ],
     description: `Charming and bright, newly renovated flat on the first floor of a small building within a quiet neighborhood in the heart of Old Town (Bascarsija). Located only 250 m from the Sebilj (central spot in Bascarsija). A great base from which to explore Sarajevo and walk to all the main sights. Accommodates up to 5 guests.
@@ -901,14 +926,14 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/cheyf-in-grbavicka.html
   68598: {
     images: [
-      "/images/properties/grbavicka.jpg",
-      "/images/properties/grbavicka1.jpg",
-      "/images/properties/grbavicka2.jpg",
-      "/images/properties/grbavicka3.jpg",
-      "/images/properties/grbavicka4.jpg",
-      "/images/properties/grbavicka5.jpg",
-      "/images/properties/grbavicka6.jpg",
-      "/images/properties/grbavicka7.jpg",
+      "/images/properties/grbavicka.webp",
+      "/images/properties/grbavicka1.webp",
+      "/images/properties/grbavicka2.webp",
+      "/images/properties/grbavicka3.webp",
+      "/images/properties/grbavicka4.webp",
+      "/images/properties/grbavicka5.webp",
+      "/images/properties/grbavicka6.webp",
+      "/images/properties/grbavicka7.webp",
     ],
     description: `Comfortable Living Space: Cheyf in Grbavička offers a one-bedroom apartment in Sarajevo. The property features a private entrance, city views, and a quiet street setting.\n
       Modern Amenities: Guests enjoy free WiFi, a fully equipped kitchen, washing machine, and streaming services. Additional amenities include a dining area, sofa bed, and work desk.\n
@@ -929,13 +954,13 @@ export const unitTypeData: Record<number, UnitTypeData> = {
   // https://www.booking.com/hotel/ba/cheyf-in-willsons-alley.html
   69187: {
     images: [
-      "/images/properties/willson.jpg",
-      "/images/properties/willson1.jpg",
-      "/images/properties/willson2.jpg",
-      "/images/properties/willson3.jpg",
-      "/images/properties/willson4.jpg",
-      "/images/properties/willson5.jpg",
-      "/images/properties/willson6.jpg",
+      "/images/properties/willson.webp",
+      "/images/properties/willson1.webp",
+      "/images/properties/willson2.webp",
+      "/images/properties/willson3.webp",
+      "/images/properties/willson4.webp",
+      "/images/properties/willson5.webp",
+      "/images/properties/willson6.webp",
     ],
     description: `Comfortable Living Space: Cheyf in Willson's alley offers a one-bedroom apartment in Sarajevo. The property features a terrace, balcony, and city views. Free WiFi and air-conditioning ensure a pleasant stay.\n
       Modern Amenities: The apartment includes a fully equipped kitchen with a refrigerator, microwave, dishwasher, and oven. Additional amenities include a washing machine, dining area, sofa bed, and work desk. Free off-site parking is available.\n

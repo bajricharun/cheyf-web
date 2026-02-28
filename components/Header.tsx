@@ -16,7 +16,7 @@ export function Header() {
           {/* Add a sleek text logo, fallback if images not loading or size is an issue */}
           <div className="relative w-28 h-8">
             <Image
-              src="/images/cheyf-logo-black.png"
+              src="/images/cheyf-logo-black.webp"
               alt="Cheyf Stays Logo"
               fill
               className="object-contain dark:invert"
@@ -33,7 +33,7 @@ export function Header() {
             Contact
           </Link>
 
-          <Link href="/become-a-partner" className="text-sm font-medium text-accent hover:text-accent/80 transition-colors">
+          <Link href="/become-a-partner" className="text-sm font-medium text-accent hover:text-accent transition-colors">
             Become a Partner
           </Link>
         </nav>
@@ -45,6 +45,7 @@ export function Header() {
           {/* Mobile Menu Toggle */}
           <button 
             className="md:hidden p-2 text-foreground"
+            aria-label="Open menu"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
