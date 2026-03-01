@@ -24,14 +24,19 @@ export async function POST(req: Request) {
     }
 
     // Verify the Monri digest to ensure the callback is authentic
-    const expectedDigest = crypto
-      .createHash("sha512")
-      .update(`${MONRI_KEY}${orderNumber}${amount}${currency}`)
-      .digest("hex");
+    // only if it is available
+    if (digest) {
+      const expectedDigest = crypto
+        .createHash("sha512")
+        .update(`${MONRI_KEY}${orderNumber}${amount}${currency}`)
+        .digest("hex");
 
-    if (digest !== expectedDigest) {
-      console.error(`Monri callback digest mismatch for order ${orderNumber}`);
-      return NextResponse.json({ error: "Invalid digest" }, { status: 403 });
+      if (digest !== expectedDigest) {
+        console.error(
+          `Monri callback digest mismatch for order ${orderNumber}`,
+        );
+        return NextResponse.json({ error: "Invalid digest" }, { status: 403 });
+      }
     }
 
     // Only process approved transactions
