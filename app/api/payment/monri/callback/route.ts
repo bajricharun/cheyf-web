@@ -7,19 +7,14 @@ const RENTL_API_BASE_URL =
   process.env.RENTL_API_URL || "https://api.rentl.io/v1";
 const RENTL_API_KEY = process.env.RENTLIO_API_KEY || "";
 
-/**
- * Monri server-to-server callback.
- * Monri POSTs transaction result here after the user completes payment.
- * We verify the digest, then create the reservation in rentl.io.
- */
 export async function POST(req: Request) {
   try {
-    const body = await req.formData();
-    const orderNumber = body.get("order_number") as string;
-    const status = body.get("status") as string; // approved, declined, etc.
-    const amount = body.get("amount") as string;
-    const currency = body.get("currency") as string;
-    const digest = body.get("digest") as string;
+    const body = await req.json();
+    const orderNumber = body.order_number as string;
+    const status = body.status as string; // approved, declined, etc.
+    const amount = body.amount as string;
+    const currency = body.currency as string;
+    const digest = body.digest as string;
 
     if (!orderNumber) {
       return NextResponse.json(
