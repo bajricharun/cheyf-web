@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const orderNumber = body.order_number as string;
     const status = body.status as string; // approved, declined, etc.
-    const amount = body.amount / 100;
+    const amount = body.amount as string;
     const currency = body.currency as string;
     const digest = body.digest as string;
 
@@ -96,7 +96,7 @@ export async function POST(req: Request) {
       fullName: reservation.fullName,
       adults: reservation.guests,
       rooms: 1,
-      note: `[MONRI PAYMENT CONFIRMED] Order: ${orderNumber}. ${reservation.note}, amount paid: ${amount} ${currency}.`,
+      note: `[MONRI PAYMENT CONFIRMED] Order: ${orderNumber}. ${reservation.note}, amount paid: ${Number(amount) / 100} ${currency}.`,
     };
 
     const rentlRes = await fetch(`${RENTL_API_BASE_URL}/reservations`, {
