@@ -96,7 +96,7 @@ export async function POST(req: Request) {
       fullName: reservation.fullName,
       adults: reservation.guests,
       rooms: 1,
-      note: `[MONRI PAYMENT CONFIRMED] Order: ${orderNumber}. ${reservation.note}`,
+      note: `[MONRI PAYMENT CONFIRMED] Order: ${orderNumber}. ${reservation.note}, amount paid: ${amount} ${currency}.`,
     };
 
     const rentlRes = await fetch(`${RENTL_API_BASE_URL}/reservations`, {
