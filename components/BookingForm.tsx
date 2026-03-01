@@ -207,9 +207,9 @@ export function BookingForm({
         transaction_type: data.transaction_type,
         order_info: data.order_info,
         // Monri redirect & callback URLs
-        success_url: data.success_url,
-        cancel_url: data.cancel_url,
-        callback_url: data.callback_url,
+        success_url_override: data.success_url_override,
+        cancel_url_override: data.cancel_url_override,
+        callback_url_override: data.callback_url_override,
       };
 
       for (const [key, value] of Object.entries(fields)) {
