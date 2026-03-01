@@ -5,7 +5,8 @@ import { savePendingReservation } from "@/lib/redis";
 const MONRI_KEY = process.env.MONRI_MERCHANT_KEY || "test_merchant_key";
 const MONRI_AUTH_TOKEN =
   process.env.MONRI_AUTHENTICITY_TOKEN || "test_authenticity_token";
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL || "https://cheyf-web.vercel.app";
 
 export async function POST(req: Request) {
   try {
@@ -67,9 +68,9 @@ export async function POST(req: Request) {
       transaction_type: "purchase",
       order_info: `Cheyf Stays Booking: ${propertyId}`,
       // URLs for Monri redirect
-      success_url: `${BASE_URL}/payment/success?order_number=${orderNumber}`,
-      cancel_url: `${BASE_URL}/payment/cancel?order_number=${orderNumber}`,
-      callback_url: `${BASE_URL}/api/payment/monri/callback`,
+      success_url_override: `${BASE_URL}/payment/success?order_number=${orderNumber}`,
+      cancel_url_override: `${BASE_URL}/payment/cancel?order_number=${orderNumber}`,
+      callback_url_override: `${BASE_URL}/api/payment/monri/callback`,
     });
   } catch (error) {
     console.error("Monri Digest Error:", error);
