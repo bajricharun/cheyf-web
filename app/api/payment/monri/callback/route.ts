@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const orderNumber = body.order_number as string;
     const status = body.status as string; // approved, declined, etc.
-    const amount = body.amount as string;
+    const amount = body.amount / 100;
     const currency = body.currency as string;
     const digest = body.digest as string;
 
